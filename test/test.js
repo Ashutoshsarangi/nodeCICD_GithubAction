@@ -3,6 +3,6 @@ const app = require('../app');
 
 describe("GET /", () => {
     it("respond with Hello World", (done) => {
-      request(app).get("/").expect("Hello World", done);
+      request(app).get("/").expect("Hello World After CICD Depolyed in Heroku", done);
     })
 });
